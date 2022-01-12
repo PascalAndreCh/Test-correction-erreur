@@ -18,4 +18,7 @@ public class AuthActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("UserToken", MODE_PRIVATE);
         return "IncredibleToken";
     }
+
+    // modif pour tests
+
 }
